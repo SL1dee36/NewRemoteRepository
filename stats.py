@@ -1,5 +1,6 @@
 """Statistical calculation helpers."""
 
+
 def average(values: list) -> float:
     """Returns the arithmetic mean of a list of numbers."""
     if not values:
