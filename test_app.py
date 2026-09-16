@@ -19,3 +19,8 @@ class TestMathUtils(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+    def test_average(self):
+        from stats import average
+        self.assertEqual(average([1, 2, 3, 4, 5]), 3.0)
+        self.assertEqual(average([]), 0.0)
