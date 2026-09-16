@@ -11,3 +11,7 @@ def multiply(a: float, b: float) -> float:
 def format_result(a: float, b: float, op: str, res: float) -> str:
     """Formats calculation result for display."""
     return f"{a} {op} {b} = {res}"
+
+def subtract(a: float, b: float) -> float:
+    """Returns the difference of two numbers."""
+    return a - b
