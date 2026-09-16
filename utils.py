@@ -1,8 +1,8 @@
-"""Math utility functions - Enterprise Edition by Person 3."""
+"""Math utility functions - Enterprise High Precision Edition (Merged Person 1 & Person 3)."""
 
 def add(a: float, b: float) -> float:
-    """Returns the sum of two numbers (Person 3 implementation)."""
-    return float(a + b)
+    """Returns the sum of two numbers with rounding and float conversion."""
+    return round(float(a + b), 4)
 
 def multiply(a: float, b: float) -> float:
     """Returns the product of two numbers."""
